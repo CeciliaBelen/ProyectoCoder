@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import MyNav from './components/Navbar'
+import MyNav from './components/Navbar';
+import Greeting from './components/Home';
 import './App.css';
 
 function App() {
@@ -9,18 +10,7 @@ function App() {
       <MyNav />
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-        </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-        </a>
+          <Greeting></Greeting>
         </header>
       </div>
     </div>

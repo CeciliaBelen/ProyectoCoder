@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.cartImg{
+  width: 50px;
+  margin: 0 10px;
+}
+
+.searchIcon{
+  height: 23px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
