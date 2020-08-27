@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import MyNav from './components/Navbar';
-import Greeting from './components/Home';
 import './App.css';
+
+function Greeting(props){
+  return(<h1>¡Bienvenidos a {props.name}!</h1>)
+}
 
 function App() {
   return (
@@ -10,7 +13,7 @@ function App() {
       <MyNav />
       <div className="App">
         <header className="App-header">
-          <Greeting></Greeting>
+          <Greeting name="editorial NN"></Greeting>
         </header>
       </div>
     </div>
