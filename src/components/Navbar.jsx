@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import CartIcon from './CartIcon'
 import SearchIcon from './SearchIcon'
-import Styles from 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 class MyNav extends React.Component {
     render() {
