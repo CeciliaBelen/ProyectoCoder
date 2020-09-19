@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import CartIcon from './CartIcon'
-import SearchIcon from './SearchIcon'
-import 'bootstrap/dist/css/bootstrap.css'
+import CartIcon from '../icons/CartIcon';
+import SearchIcon from '../icons/SearchIcon';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class MyNav extends React.Component {
     render() {
@@ -18,10 +18,10 @@ class MyNav extends React.Component {
                 <Form inline>
                     <FormControl type="text" placeholder="Buscar" className="mr-sm-2" />
                     <Button variant="outline-info">
-                        <SearchIcon></SearchIcon>
+                        <SearchIcon/>
                     </Button>
                 </Form>
-                <CartIcon></CartIcon>
+                <CartIcon/>
             </Navbar>
         )
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Cart from '../utils/img/cart-icon.svg'
+import Cart from '../../utils/img/cart-icon.svg'
 
 const CartIcon = () => {
     return (
