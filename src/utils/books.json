@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Alicia en el país de las maravillas",
+        "author": "Lewis Carol",
+        "price": 500
+    },
+    {
+        "id": 2,
+        "name": "Peter Pan",
+        "author": "J. M. Barrie",
+        "price": 500
+    },
+    {
+        "id": 3,
+        "name": "La isla del tesoro",
+        "author": "Robert L. Stevenson",
+        "price": 500
+    },
+    {
+        "id": 4,
+        "name": "El fantasma de Canterville",
+        "author": "Oscar Wilde",
+        "price": 500
+    }
+]
