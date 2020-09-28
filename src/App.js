@@ -1,31 +1,33 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Greeting from './components/Home';
 import MyNav from './components/Navbar/Navbar';
-import BookDetail from './components/products/BookDetail';
+import Products from './components/products/Products';
+import BookDetailContainer from './containers/BookDetailContainer';
 import './App.css';
 
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <MyNav />
         <div className="App">
-          <Switch>
-            <Route path="/">
+          {/* <Switch>
+            <Route path="/"> */}
               <header>
                 <Greeting name="editorial NN" />
               </header>
-            </Route>
+              <Products/>
+            {/* </Route>
           </Switch>
-          <Switch>
-            <Route path="/catalog">
-              <BookDetail />
-            </Route>
-          </Switch>
+          <Switch> */}
+            {/* <Route path="/catalog"> */}
+              <BookDetailContainer />
+            {/* </Route>
+          </Switch> */}
         </div>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
