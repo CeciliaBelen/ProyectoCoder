@@ -4,27 +4,27 @@
         "name": "Alicia en el país de las maravillas",
         "author": "Lewis Carol",
         "price": 500,
-        "description": "Insert sarasa here please"
+        "description": "Estás a punto de entrar en el mundo de Alicia, el más extraño y asombroso, disparatado e insólito que hayas conocido y que jamás vas a olvidar. En este mundo, los gatos desaparecen sonrientes, las reinas tienen ejércitos de naipes, los conejos visten chaleco y te apremian para que los sigas. Y si los sigues, caerás por el agujero de su madriguera… Hasta el País de las Maravillas.Allí, las reglas que conocemos no funcionan; en el País de las Maravillas todo tiene su propia lógica. La hora del té no acaba nunca, Tiempo es un señor que se enfada si no sigues el compás cuando cantas y las lágrimas pueden llegar a formar un mar si justo en aquel momento tu cuerpo se encoge hasta ser diminuto. Desde su publicación, Alicia en el país de las maravillas ha fascinado a lectores como tú."
     },
     {
         "id": 2,
         "name": "Peter Pan",
         "author": "J. M. Barrie",
         "price": 500,
-        "description": "Insert sarasa here please"
+        "description": "Así comienza la aventura más maravillosa que Wendy, John y Michael pudieran haber soñado nunca. Junto con Peter Pan y Campanilla vuelan al País de Nunca Jamás, donde conocen a los niños perdidos, a las hermosas sirenas de la laguna, a los pieles rojas y su princesa Tigridia, y a los terribles piratas, capitaneados por el malvado Garfio... Una novela inmortal que hará que la magia, la fantasía, la libertad y la diversión entren en la vida de los lectores para siempre. Para los niños, leer esta novela es adentrarse en un mundo mágico lleno de aventuras; para los mayores es revivir aquellos días en que creíamos en las hadas y volábamos cada día a nuestra propia Isla de Nunca Jamás. Su lectura está recomendada a partir de 10 años."
     },
     {
         "id": 3,
         "name": "La isla del tesoro",
         "author": "Robert L. Stevenson",
         "price": 500,
-        "description": "Insert sarasa here please"
+        "description": "La Isla del Tesoro, narración que Robert Louis Stevenson publicara originalmente por entregas entre octubre de 1881 y enero de 1882 en la revista Young Folks bajo el seudónimo de Captain George North, se editó como libro un año más tarde. Para esta edición de Libros del Zorro Rojo, el destacado artista inglés Ralph Steadman recrea de manera magistral la novela de Stevenson. Son muchos los ilustradores que se han atrevido con este clásico de aventura; pero pocos son capaces de plasmar con tanta naturalidad e intensidad el espíritu de la novela. En ella, un misterioso marino con una pata de palo se esconde en la posada Almirante Benbow, y desde el momento en que el joven Jim Hawks se apodera del mapa de una isla desierta donde se esconde una fortuna en oro robado, nada volverá a ser lo mismo. Jim, Squire Trelawney y el doctor Livesey se embarcan junto al capitán Smollet en la Hispaniola, rumbo a la más fascinante aventura de todos los tiempos. Pronto descubrirán que la tripulación está formada por villanos y filibusteros a las órdenes de John Silver, cocinero y pirata a bordo, quien también codicia el tesoro."
     },
     {
         "id": 4,
         "name": "El fantasma de Canterville",
         "author": "Oscar Wilde",
         "price": 500,
-        "description": "Insert sarasa here please"
+        "description": "Inteligentísima mezcla de sátira social y elaborada farsa, El fantasma de Canterville (originalmente publicada en 1887) es una de las piezas más deliciosas y elegantes del gran Oscar Wilde. Una sofisticada familia norteamericana, los Otis, compra el añejo castillo inglés de los Canterville. El anciano dueño les habla entonces de que en la mansión habita desde tiempos inmemoriales el colérico fantasma de Lord Simón Canterville, que mató a su esposa y cuyo cuerpo desapareció después misteriosamente. Lejos de amedrentarse, los inquilinos compran el castillo con fantasma incluido, y acaban sometiendo al pobre espectro anacrónico, que acaba siendo juguete y víctima de los dos niños terribles de la familia. Tal vez sea El fantasma de Canterville la novela más conocida y celebrada de Wilde, que ha pasado por méritos propios a la lista de obras inolvidables y fundamentales de la literatura universal."
     }
 ]
