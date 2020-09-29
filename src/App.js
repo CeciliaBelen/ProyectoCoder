@@ -2,7 +2,7 @@ import React from 'react';
 // import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Greeting from './components/Home';
 import MyNav from './components/Navbar/Navbar';
-import Products from './components/products/Products';
+// import Products from './components/products/Products';
 import BookDetailContainer from './containers/BookDetailContainer';
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
               <header>
                 <Greeting name="editorial NN" />
               </header>
-              <Products/>
+              {/* <Products/> */}
             {/* </Route>
           </Switch>
           <Switch> */}

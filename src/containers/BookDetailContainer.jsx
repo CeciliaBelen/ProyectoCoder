@@ -15,7 +15,7 @@ export default function BookDetailContainer(){
         }, 3000);
       }, [bookList]);
    
-    useEffect(()=>{setBooks()}, [])
+    useEffect(()=>{setBooks()}, [bookList])
 
     if (loading) {
         return (
@@ -26,11 +26,5 @@ export default function BookDetailContainer(){
         );
       }
     
-    return(
-        <div>
-            {books.map((book) => (
-                <BookDetail data={book}/>
-            ))}
-        </div>
-    )
+    return(<BookDetail data={books}/>)
 }
