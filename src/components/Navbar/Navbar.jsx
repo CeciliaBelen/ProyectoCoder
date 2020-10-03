@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { NavLink as RRNavLink, Route } from 'react-router-dom';
 import CartIcon from '../icons/CartIcon';
 import SearchIcon from '../icons/SearchIcon';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,12 +9,20 @@ class MyNav extends React.Component {
     render() {
         return (
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">NN Editores</Navbar.Brand>
+                <Navbar.Brand>NN Editores</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Inicio</Nav.Link>
-                    <Nav.Link href="#catalog">Catálogo</Nav.Link>
-                    <Nav.Link href="#authors">Nuestros autores</Nav.Link>
-                    <Nav.Link href="#thisisus">Nosotros</Nav.Link>
+                    <Route>
+                        <Nav.Link tag={RRNavLink} exact to="/">Inicio</Nav.Link>
+                    </Route>
+                    <Route>
+                        <Nav.Link tag={RRNavLink} exact to="/prducts">Catálogo</Nav.Link>
+                    </Route>
+                    <Route>
+                        <Nav.Link href="#authors">Nuestros autores</Nav.Link>
+                    </Route>
+                    <Route>
+                        <Nav.Link href="#thisisus">Nosotros</Nav.Link>
+                    </Route>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Buscar" className="mr-sm-2" />

@@ -31,6 +31,11 @@ export default class AddToCart extends Component {
             }));
         }
     }
+    handleQty = (qty)=>{
+        this.setState({
+            count: qty.target.value
+        })
+    }
     render() {
         return (
             <div>

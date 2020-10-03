@@ -2,6 +2,7 @@ import React from 'react';
 import AddToCart from '../addToCart/AddToCart';
 import Btn from '../addToCart/Button';
 
+
 function BookDetail(props) {
     // const { data } = props;
     return (
@@ -12,7 +13,7 @@ function BookDetail(props) {
                 <h5>${element.price}</h5>
                 <h5>{element.description}</h5>
                 <AddToCart />
-                <Btn sign={"Comprar"} />
+                <Btn sign={"Comprar"} onClick={props.handleQty} />
             </div>)}
         </div>
     )
